@@ -116,7 +116,7 @@
       <parent link="${prefix}base_link"/>
       <child link="${prefix}link_1"/>
       <axis xyz="0 0 1"/>
-      <limit lower="${radians(-185)}" upper="${radians(185)}" effort="0" velocity="${radians(130)}"/>
+      <limit lower="${radians(-170)}" upper="${radians(170)}" effort="0" velocity="${radians(130)}"/>
     </joint>
     <joint name="${prefix}joint_2" type="revolute">
       <origin xyz="0.312 0 0" rpy="0 0 0"/>
@@ -130,14 +130,14 @@
       <parent link="${prefix}link_2"/>
       <child link="${prefix}link_3"/>
       <axis xyz="0 -1 0"/>
-      <limit lower="${radians(-132)}" upper="${radians(180)}" effort="0" velocity="${radians(125)}"/>
+      <limit lower="${radians(-132)}" upper="${radians(230)}" effort="0" velocity="${radians(125)}"/>
     </joint>
     <joint name="${prefix}joint_4" type="revolute">
       <origin xyz="0 0 0.225" rpy="0 0 0"/>
       <parent link="${prefix}link_3"/>
       <child link="${prefix}link_4"/>
       <axis xyz="-1 0 0"/>
-      <limit lower="${radians(-360)}" upper="${radians(360)}" effort="0" velocity="${radians(180)}"/>
+      <limit lower="${radians(-240)}" upper="${radians(240)}" effort="0" velocity="${radians(180)}"/>
     </joint>
     <joint name="${prefix}joint_5" type="revolute">
       <origin xyz="1.280 0 0" rpy="0 0 0"/>
